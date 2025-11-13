@@ -70,6 +70,36 @@ circum_of_circle = 2*pi*radius
 print('area of circle is : ', area_of_circle)
 print('circumfrence of circle is :', circum_of_circle)
 
+#Use and operator to check if 'on' is found in both 'python' and 'dragon'
+
+print('length of python is:', len('python'))
+print('length of dragon is:', len('dragon'))
+print(len('python') != len('dragon'))
+
+'''I hope this course is not full of jargon. 
+Use in operator to check if jargon is in the sentence.'''
+
+print('jargon' in 'I hope this course is not full of jargon')
+
+#There is no 'on' in both dragon and python
+print('on' in 'python' and 'dragon')
+
+#Find the length of the text python and convert the value to float and convert it to string
+text = 'python'
+length = len(text)
+length_float = float(length)
+length_str = str(length_float)
+print(length_str)
+
+'''Even numbers are divisible by 2 and the remainder is zero. 
+How do you check if a number is even or not using python?'''
+for n in range(1, 100):
+
+     if n%2 == 0:
+        print(n, 'n is even')
+
+
+
 
 
 
