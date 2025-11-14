@@ -12,3 +12,14 @@ print(multiline_message)
 multiline_message = """I am a educator and enjoy teaching.
 I love building communities, and meeting like minded people."""
 print(multiline_message)
+
+#String Concatenation
+
+first_name = 'Aanchal' 
+last_name = 'Mishra'
+space = ' '
+full_name = first_name + space + last_name
+print(first_name)
+print(len(first_name))
+print(len(last_name))
+print(len(full_name))
