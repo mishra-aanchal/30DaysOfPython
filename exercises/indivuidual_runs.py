@@ -1,0 +1,8 @@
+print('I am dora the explorer\n: what about you?')
+print('I am dora the explorer\n: what about you?')
+print('Days\tTopics\tExercises')
+print('day1\t2\t4')
+print('day2\t4\t8')
+print('day3\t8\t16')
+print('this is a back slash symbol\\:')
+print('Every programming language starts with \"Hello, World\"')
