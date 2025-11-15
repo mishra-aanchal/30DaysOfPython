@@ -32,3 +32,21 @@ print('day2\t4\t8')
 print('day3\t8\t16')
 print('this is a back slash symbol\\:')
 print('Every programming language starts with \"Hello, World\"')
+
+#new style string formatting(str.format)
+first_name = 'Aanchal'
+last_name = 'Mishra'
+language = 'Python'
+formatted_string = 'I am {} {}. I am learning {}'.format(first_name, last_name, language)
+print(formatted_string)
+
+a = 5
+b = 10
+
+print('{} + {} = {}'.format(a,b,a+b))
+print('{} - {} = {}'.format(a,b,a-b))
+print('{}*{} ={}'.format(a,b,a*b))
+print('{}/{} ={}'.format(a,b,a/b))
+print('{}%{} ={}'.format(a,b,a%b))
+print('{}//{} ={}'.format(a,b,a//b))
+print('{}**{} ={}'.format(a,b,a**b))
