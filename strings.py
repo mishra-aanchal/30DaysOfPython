@@ -65,3 +65,41 @@ print(f'{a} % {b} = {a%b}')
 print(f'{a} / {b} = {a/b}')
 print(f'{a} // {b} = {a//b}')
 
+#Python strings as sequences of charecters
+language = 'Python'
+a,b,c,d,e,f = language
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+#Accessing charecters in strings by Index 
+'''In programming counting starts from zero. 
+Therefore the first letter of a string is at zero index and the last letter of a string is the length of a string minus one.'''
+
+#['P', 'Y', 'T', 'H', 'O', 'N']
+#  0 ,  1 ,  2 ,  3 ,  4 ,  5
+
+language = 'Python'
+first_letter = language[0]
+print(first_letter)
+second_letter = language[1]
+print(second_letter)
+third_letter = language[2]
+print(third_letter)
+fourth_letter = language[3]
+print(fourth_letter)
+fifth_letter = language[4]
+print(fifth_letter)
+sixth_letter = language[5]
+print(sixth_letter)
+
+#if we wantr to strt from right hand, we can use negative indexing
+
+language = 'Python'
+last_letter = language[5]
+print(last_letter)
+second_last = language[4]
+[print(second_last)]
