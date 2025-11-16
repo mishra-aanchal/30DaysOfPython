@@ -96,10 +96,27 @@ print(fifth_letter)
 sixth_letter = language[5]
 print(sixth_letter)
 
-#if we wantr to strt from right hand, we can use negative indexing
+#if we want to strt from right hand, we can use negative indexing
 
 language = 'Python'
 last_letter = language[5]
 print(last_letter)
 second_last = language[4]
 [print(second_last)]
+
+#slicing python strings
+
+language = 'Python'
+last_three_letters = language[-3:]
+print(last_three_letters)
+
+language = "python"
+
+first_three = language[0:3]  
+last_three = language[3:]     
+
+full_word = first_three + last_three
+
+print(first_three, last_three)  
+print(full_word)  
+print(f'{first_three} + {last_three} = {full_word}')
