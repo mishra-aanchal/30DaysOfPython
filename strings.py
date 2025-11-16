@@ -33,16 +33,20 @@ print('day3\t8\t16')
 print('this is a back slash symbol\\:')
 print('Every programming language starts with \"Hello, World\"')
 
-#new style string formatting(str.format)
+#Old Style String Formatting (% Operator)
+first_name = 'Aanchal'
+last_name = 'Mishra'
+formatted_string = 'My name is %s %.s' %(first_name,last_name)
+#new style string formatting(str.format) - introduced in Python version 3.
+#1st example
 first_name = 'Aanchal'
 last_name = 'Mishra'
 language = 'Python'
 formatted_string = 'I am {} {}. I am learning {}'.format(first_name, last_name, language)
 print(formatted_string)
-
+#2nd example
 a = 5
 b = 10
-
 print('{} + {} = {}'.format(a,b,a+b))
 print('{} - {} = {}'.format(a,b,a-b))
 print('{}*{} ={}'.format(a,b,a*b))
@@ -50,3 +54,14 @@ print('{}/{} ={}'.format(a,b,a/b))
 print('{}%{} ={}'.format(a,b,a%b))
 print('{}//{} ={}'.format(a,b,a//b))
 print('{}**{} ={}'.format(a,b,a**b))
+
+#another new string formatting - String Interpolation (python 3.6+)
+a = 2
+b = 4
+print(f'{a} + {b} = {a+b}')
+print(f'{a} - {b} = {a-b}')
+print(f'{a} * {b} = {a*b}')
+print(f'{a} % {b} = {a%b}')
+print(f'{a} / {b} = {a/b}')
+print(f'{a} // {b} = {a//b}')
+

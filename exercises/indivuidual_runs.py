@@ -1,10 +1,8 @@
-a = 5
-b = 10
-
-print('{} + {} = {}'.format(a,b,a+b))
-print('{} - {} = {}'.format(a,b,a-b))
-print('{}*{} ={}'.format(a,b,a*b))
-print('{}/{} ={}'.format(a,b,a/b))
-print('{}%{} ={}'.format(a,b,a%b))
-print('{}//{} ={}'.format(a,b,a//b))
-print('{}**{} ={}'.format(a,b,a**b))
+a = 2
+b = 4
+print(f'{a} + {b} = {a+b}')
+print(f'{a} - {b} = {a-b}')
+print(f'{a} * {b} = {a*b}')
+print(f'{a} % {b} = {a%b}')
+print(f'{a} / {b} = {a/b}')
+print(f'{a} // {b} = {a//b}')
