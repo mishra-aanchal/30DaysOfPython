@@ -120,3 +120,22 @@ full_word = first_three + last_three
 print(first_three, last_three)  
 print(full_word)  
 print(f'{first_three} + {last_three} = {full_word}')
+
+#Reversing a string
+
+message = "Hello World"
+reverse_language = message[::-1]
+print(reverse_language)
+
+#logic behind [::-1] - this is in format [ start: stop: step]
+#In [::-1] -> start - not given -> start from the end
+#stop -> not given -> got to the beginning
+#step -> move backwards by 1 charecter.
+#hence, the slice means - Start from the last character and move backward one step at a time until the string ends.
+
+#skipping characters while slicing
+
+message = 'world'
+word = message[0:2:4]
+print(word)
+

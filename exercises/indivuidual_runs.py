@@ -9,3 +9,13 @@ full_word = first_three + last_three
 print(first_three, last_three)  
 print(full_word)  
 print(f'{first_three} + {last_three} = {full_word}')
+
+message = "Hello World"
+reverse_language = message[::-1]
+print(reverse_language)
+
+message = 'world'
+word = message[0:2:4]
+print(word) 
+
+#wrong output, try again tomm.
