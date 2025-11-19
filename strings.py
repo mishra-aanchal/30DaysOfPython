@@ -152,7 +152,7 @@ print(sentence.count('s',4,15))
 #this will give result - 2 reason - Counts 's' only between index 4 (inclusive) and 15 (exclusive), where it appears 2 times.
 #format of the string is str.count(substring, start, end)-> in this case ('s',4,15)
 
-#endswith()
+#endswith() Checks if a string ends with a specified ending
 sentence = 'Strings is a vast topic'
 print(sentence.endswith('pic'))
 
@@ -161,4 +161,11 @@ line = 'Strings\tis\ta\tvast\ttopic'
 print(line.expandtabs(3))
 # expandtabs() replaces each \t with spaces; default tab size = 8, or use expandtabs(n) for custom width
 
+#find() Returns the index of the first occurrence of a substring, if not found returns -1
+line = 'Strings is a vast topic'
+print(line.find('n'))
+print(line.find('funcn'))
 
+#rfind() Returns the index of the last occurrence of a substring, if not found returns -1
+line = 'Strings is a vast topic'
+print(line.rfind('i'))
