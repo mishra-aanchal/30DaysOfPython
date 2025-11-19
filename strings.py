@@ -152,6 +152,13 @@ print(sentence.count('s',4,15))
 #this will give result - 2 reason - Counts 's' only between index 4 (inclusive) and 15 (exclusive), where it appears 2 times.
 #format of the string is str.count(substring, start, end)-> in this case ('s',4,15)
 
+#endswith()
+sentence = 'Strings is a vast topic'
+print(sentence.endswith('pic'))
 
+#exapandtabs()
+line = 'Strings\tis\ta\tvast\ttopic'
+print(line.expandtabs(3))
+# expandtabs() replaces each \t with spaces; default tab size = 8, or use expandtabs(n) for custom width
 
 
