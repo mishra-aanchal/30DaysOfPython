@@ -135,7 +135,23 @@ print(reverse_language)
 
 #skipping characters while slicing
 
-message = 'world'
-word = message[0:2:4]
-print(word)
+language = 'Python'
+pto = language[0:6:2] #
+print(pto) # Pto
+
+#String methods
+
+#capitalize()
+sentence = 'Strings is a vast topic'
+print(sentence.capitalise())
+
+#count()
+sentence = 'Strings is a vast topic'
+print(sentence.count('s'))
+print(sentence.count('s',4,15))
+#this will give result - 2 reason - Counts 's' only between index 4 (inclusive) and 15 (exclusive), where it appears 2 times.
+#format of the string is str.count(substring, start, end)-> in this case ('s',4,15)
+
+
+
 
