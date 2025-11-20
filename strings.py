@@ -169,3 +169,10 @@ print(line.find('funcn'))
 #rfind() Returns the index of the last occurrence of a substring, if not found returns -1
 line = 'Strings is a vast topic'
 print(line.rfind('i'))
+
+#format()
+name = 'Aanchal'
+role = 'Developer Advocate'
+org = 'Postman'
+line = 'I am {}. I am a {} at {}.'.format(name,role,org)
+print(line)

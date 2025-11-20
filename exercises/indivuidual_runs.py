@@ -7,4 +7,8 @@ print(line.find('n'))
 print(line.find('th')) 
 line = 'Strings is a vast topic'
 print(line.rfind('i'))
-
+name = 'Aanchal'
+role = 'Developer Advocate'
+org = 'Postman'
+line = 'I am {}. I am a {} at {}.'.format(name,role,org)
+print(line)
