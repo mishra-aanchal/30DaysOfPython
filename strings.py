@@ -220,3 +220,22 @@ digit = 'onetwothree'
 print(digit.isdigit())
 digit = '123②'
 print(digit.isdigit())
+
+#isnumeric() Checks if all characters in a string are numbers or number related (just like isdigit(), just accepts more symbols, like ½)
+num = '12'
+print(num.isnumeric())
+num = '\u00BD' #1/2
+print(num.isnumeric())
+num = '15.5'
+print(num.isnumeric())
+
+#isidentifier() it checks if a string is a valid variable name
+var = 'LetsDoIt'
+print(var.isidentifier())
+var = 'LetsDoIt1cemore'
+print(var.isidentifier())
+var = '1cemore'
+print(var.isidentifier()) #False, because it starts with a number
+
+
+
