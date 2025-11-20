@@ -16,3 +16,11 @@ idea = 'build an AI agent'
 sub_string = 'AI'
 print(idea.index(sub_string))
 print(idea.index(sub_string, 8))
+idea = 'build an AI agent'
+sub_string = 'nt'
+print(idea.index(sub_string))
+
+idea = 'buildtwentyAIagents'
+print(idea.isalnum())
+idea = 'build20aiagents'
+print(idea.isalnum())
