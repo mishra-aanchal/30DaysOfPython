@@ -237,5 +237,15 @@ print(var.isidentifier())
 var = '1cemore'
 print(var.isidentifier()) #False, because it starts with a number
 
+#islower() Checks if all alphabet characters in the string are lowercase
+alpha = 'I love python'
+print(alpha.islower())
+alpha = 'i love python'
+print(alpha.islower())
 
+#isupper() Checks if all alphabet characters in the string are uppercase
+alpha = 'I LOVE PYTHON'
+print(alpha.isupper())
+alpha = 'i love python'
+print(alpha.isupper())
 
