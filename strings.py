@@ -192,5 +192,31 @@ print(idea.index(sub_string))
 #isalnum() Checks alphanumeric character
 idea = 'buildtwentyAIagents'
 print(idea.isalnum())
+idea = 'build 20 ai agents' #False, space is not an alphanumeric character
+print(idea.isalnum())
 idea = 'build20aiagents'
 print(idea.isalnum())
+
+#isalpha() Checks if all string elements are alphabet characters (a-z and A-Z)
+idea = 'Build APIs' #False, space not alpha
+print(idea.isalpha())
+idea = 'BuildAPIs'
+print(idea.isalpha())
+idea = 'Build2APIs'
+print(idea.isalpha())
+
+#isdecimal()
+phrase = '123'
+print(phrase.isdecimal())
+phrase = '123go'
+print(phrase.isdecimal())
+phrase = '1 2 3 G0'
+print(phrase.isdecimal()) #False - space not allowed
+
+#isdigit()
+digit = '123'
+print(digit.isdigit())
+digit = 'onetwothree'
+print(digit.isdigit())
+digit = '123②'
+print(digit.isdigit())
