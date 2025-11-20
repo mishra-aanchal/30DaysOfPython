@@ -176,3 +176,10 @@ role = 'Developer Advocate'
 org = 'Postman'
 line = 'I am {}. I am a {} at {}.'.format(name,role,org)
 print(line)
+
+#index() Returns the lowest index of a substring, additional arguments indicate starting and ending index (default 0 and string length - 1). If the substring is not found it raises a valueError.
+idea = 'build an AI agent'
+sub_string = 'AI'
+print(idea.index(sub_string))
+print(idea.index(sub_string, 'bu'))
+print(idea.index(sub_string, 8))

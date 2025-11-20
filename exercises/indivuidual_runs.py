@@ -12,3 +12,7 @@ role = 'Developer Advocate'
 org = 'Postman'
 line = 'I am {}. I am a {} at {}.'.format(name,role,org)
 print(line)
+idea = 'build an AI agent'
+sub_string = 'AI'
+print(idea.index(sub_string))
+print(idea.index(sub_string, 8))
