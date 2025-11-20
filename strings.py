@@ -249,3 +249,8 @@ print(alpha.isupper())
 alpha = 'i love python'
 print(alpha.isupper())
 
+#join()
+check = ['HTML', 'CSS', 'Javascript','React']
+join = ''.join(check)
+check = ['HTML', 'CSS', 'Javascript','React']
+join = '#'.join(check)
