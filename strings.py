@@ -263,12 +263,27 @@ print(chal.strip('noth')) # 'irty days of py'
 chal = 'thirty days of python'
 print(chal.replace('python', 'coding'))
 
-#split()
+#split() Splits the string, using given string or space as a separator
 challenge = 'thirty days of python'
 print(challenge.split())
 challenge = 'thirty, days, of, python'
 print(challenge.split(','))
 
+#title() Returns a title cased string
+title = '30 days of Python'
+print(title.title())
+
+#swapcase() Converts all uppercase characters to lowercase and all lowercase characters to uppercase characters
+line = "Let's talk APIs"
+print(line.swapcase())
+line = "let's talk apis"
+print(line.swapcase())
+
+#startswith() Checks if String Starts with the Specified String
+line = 'thirty days of python'
+print(line.startswith('forty'))
+line = 'thirty days of python'
+print(line.startswith('thirty'))
 
 
 

@@ -1,14 +1,10 @@
-check = ['HTML', 'CSS', 'Javascript','React']
-join = ''.join(check)
-print(join)
-check = ['HTML', 'CSS', 'Javascript','React']
-join = '#'.join(check)
-print(join)
-chal = 'thirty days of python'
-print(chal.strip('noth'))
-chal = 'thirty days of python'
-print(chal.replace('python', 'coding'))
-challenge = 'thirty days of python'
-print(challenge.split())
-challenge = 'thirty, days, of, python'
-print(challenge.split('; '))
+title = '30 days of Python'
+print(title.title())
+line = "Let's talk APIs"
+print(line.swapcase())
+line = "let's talk apis"
+print(line.swapcase())
+line = 'thirty days of python'
+print(line.startswith('forty'))
+line = 'thirty days of python'
+print(line.startswith('thirty'))
