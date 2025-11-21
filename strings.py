@@ -249,8 +249,31 @@ print(alpha.isupper())
 alpha = 'i love python'
 print(alpha.isupper())
 
-#join()
+#join() Returns a concatenated string
 check = ['HTML', 'CSS', 'Javascript','React']
 join = ''.join(check)
 check = ['HTML', 'CSS', 'Javascript','React']
 join = '#'.join(check)
+
+#strip() Removes all given characters starting from the beginning and end of the string
+chal = 'thirty days of python'
+print(chal.strip('noth')) # 'irty days of py'
+
+#replace() Replaces substring with a given string
+chal = 'thirty days of python'
+print(chal.replace('python', 'coding'))
+
+#split()
+challenge = 'thirty days of python'
+print(challenge.split())
+challenge = 'thirty, days, of, python'
+print(challenge.split(','))
+
+
+
+
+
+
+
+
+
