@@ -29,3 +29,6 @@ print(company.lower())
 print(company.capitalize())
 print(company.title())
 print(company.swapcase)
+#Cut(slice) out the first word of AI For All string.
+first_word = company[:2]
+print(first_word)
