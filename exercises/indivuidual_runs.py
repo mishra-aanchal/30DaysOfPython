@@ -1,10 +1,6 @@
-title = '30 days of Python'
-print(title.title())
-line = "Let's talk APIs"
-print(line.swapcase())
-line = "let's talk apis"
-print(line.swapcase())
-line = 'thirty days of python'
-print(line.startswith('forty'))
-line = 'thirty days of python'
-print(line.startswith('thirty'))
+word1 = 'Thirty'
+word2 = 'Days'
+word3 = 'Of'
+word4 = 'Python'
+concat_string = 'word1' + 'word2' + 'word3' + 'word4'
+print(concat_string)
