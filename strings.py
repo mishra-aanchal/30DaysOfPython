@@ -141,11 +141,11 @@ print(pto) # Pto
 
 #String methods
 
-#capitalize()
+#capitalize() Converts the first character of the string to capital letter
 sentence = 'Strings is a vast topic'
 print(sentence.capitalise())
 
-#count()
+#count() returns occurrences of substring in string, count(substring, start=.., end=..). The start is a starting indexing for counting and end is the last index to count.
 sentence = 'Strings is a vast topic'
 print(sentence.count('s'))
 print(sentence.count('s',4,15))
