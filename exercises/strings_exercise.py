@@ -32,3 +32,8 @@ print(company.swapcase)
 #Cut(slice) out the first word of AI For All string.
 first_word = company[:2]
 print(first_word)
+#Check if AI For All string contains a word AI using the method index, find or other methods.
+print(company.index('AI'))
+# Note: If the word was not in the string it would raise err - ValueError: substring not found, .index() to check presence works only if you expect the substring to exist.
+#If you want a safer method, use .find()
+print(company.find('AI'))
