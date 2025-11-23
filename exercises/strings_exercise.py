@@ -37,3 +37,7 @@ print(company.index('AI'))
 # Note: If the word was not in the string it would raise err - ValueError: substring not found, .index() to check presence works only if you expect the substring to exist.
 #If you want a safer method, use .find()
 print(company.find('AI'))
+#Replace the word AI in the string 'AI For All' to Code.
+print(company.replace('AI','Code'))
+#Change AI for All to Python for everyone using the replace method or other methods.
+print(company.replace('AI for All', 'Python for everyone'))
