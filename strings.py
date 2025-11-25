@@ -187,7 +187,7 @@ print(idea.index(sub_string, 8))
 #rindex() Returns the highest index of a substring. additional arguments indicate starting and ending index (default 0 and string length - 1)
 idea = 'build an AI agent'
 sub_string = 'AI'
-print(idea.index(sub_string))
+print(idea.rindex(sub_string))
 
 #isalnum() Checks alphanumeric character
 idea = 'buildtwentyAIagents'

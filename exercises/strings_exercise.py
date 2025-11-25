@@ -49,4 +49,8 @@ print(companies.split(', '))
 #What is the character at index 0 in the string AI For All.
 print(company.index[0]) # this won't work, as here, you are treating company.index (a function) like a list or string. index is a method, and methods cannot be subscripted — that’s why Python gives error
 print(company[0])
+#What is the last index of the string AI For All.
+print(company.rindex('l'))
+
+
 
