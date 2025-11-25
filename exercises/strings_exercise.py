@@ -41,3 +41,9 @@ print(company.find('AI'))
 print(company.replace('AI','Code'))
 #Change AI for All to Python for everyone using the replace method or other methods.
 print(company.replace('AI for All', 'Python for everyone'))
+#Split the string 'AI For All' using space as the separator (split()) .
+print(company.split(' '))
+#"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
+companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(companies.split(' '))
+
