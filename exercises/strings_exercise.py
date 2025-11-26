@@ -51,6 +51,11 @@ print(company.index[0]) # this won't work, as here, you are treating company.ind
 print(company[0])
 #What is the last index of the string AI For All.
 print(company.rindex('l'))
-
-
+#What character is at index 5 in "AI For All" string.
+print(company[5])
+#Create an acronym or an abbreviation for the name 'Python For Everyone'.
+full_word = 'Python For Everyone'
+acronym = full_word.split()
+acronym = ''
+print(acronym)
 
