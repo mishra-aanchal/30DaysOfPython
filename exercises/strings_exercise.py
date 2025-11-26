@@ -58,4 +58,11 @@ full_word = 'Python For Everyone'
 acronym = full_word.split()
 acronym = ''
 print(acronym)
+#Use index to determine the position of the first occurrence of A in AI For All.
+print(company.index('A'))
+#Use index to determine the position of the first occurrence of F in AI For All.
+print(company.index('F'))
+#Use rfind to determine the position of the last occurrence of l in AI For All People.
+print(company.rfind('l'))
+
 
