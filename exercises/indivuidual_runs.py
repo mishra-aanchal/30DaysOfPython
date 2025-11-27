@@ -15,3 +15,8 @@ print('Number of countries:',len(countries))
 
 list = ['Aanchal', 100, True, {'County':'India', 'city':'Tamil Nadu'}]
 print(list)
+fruits = ['Leechee', 'mango', 'apple', 'apple', 'pineapple']
+print(fruits[0])
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[0] # we are accessing the first item using its index
+print(first_fruit)

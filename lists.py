@@ -30,3 +30,13 @@ print('Number of countries:',len(countries))
 list = ['Aanchal', 100, True, {'County':'India', 'city':'Tamil Nadu'}] # list containing different data types
 print(list)
 
+#Accessing List Items Using Positive Indexing
+fruits = ['Leechee', 'mango', 'apple', 'apple', 'pineapple']
+print(fruits[0])
+#this will give correct answer, but this is a better approach :
+fruits = ['banana', 'orange', 'mango', 'lemon']
+first_fruit = fruits[0] # we are accessing the first item using its index
+print(first_fruit)
+# Why it's good: Useful when you want to use first_fruit later in the code
+
+
