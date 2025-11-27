@@ -13,7 +13,7 @@ print(len(empty_list)) #0
 
 #Lists with initial values. We use len() to find the length of a list.
 fruits = ['Leechee', 'mango', 'apple', 'pineapple']
-veggies = ['capcicum','bitterguard', 'onion', 'potato', 'tomato']
+veggies = ['capsicum','bitterguard', 'onion', 'potato', 'tomato']
 diary_products = ['milk', 'butter', 'meat', 'yogurt']
 languages = ['JS', 'Python', 'java', 'ruby']
 countries = ['India', 'USA', 'Switzerland', 'Norway']
@@ -43,5 +43,12 @@ print(second_fruit)
 last_index = len(fruits) -1
 last_fruit = fruits[last_index]
 print(last_fruit)
+
+#Accessing List Items Using Negative Indexing
+#Negative indexing means beginning from the end, -1 refers to the last item, -2 refers to the second last item.
+veggies = ['capsicum','bitterguard', 'onion', 'potato', 'tomato']
+second_lastveg = veggies[-2]
+print(second_lastveg)
+
 
 
