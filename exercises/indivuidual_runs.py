@@ -20,3 +20,6 @@ print(fruits[0])
 fruits = ['banana', 'orange', 'mango', 'lemon']
 first_fruit = fruits[0] # we are accessing the first item using its index
 print(first_fruit)
+last_index = len(fruits) -1
+last_fruit = fruits[last_index]
+print(last_fruit)

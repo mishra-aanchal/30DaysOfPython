@@ -12,7 +12,7 @@ empty_list = [] #this is an empty list, no item in the list
 print(len(empty_list)) #0
 
 #Lists with initial values. We use len() to find the length of a list.
-fruits = ['Leechee', 'mango', 'apple', 'apple', 'pineapple']
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 veggies = ['capcicum','bitterguard', 'onion', 'potato', 'tomato']
 diary_products = ['milk', 'butter', 'meat', 'yogurt']
 languages = ['JS', 'Python', 'java', 'ruby']
@@ -31,12 +31,17 @@ list = ['Aanchal', 100, True, {'County':'India', 'city':'Tamil Nadu'}] # list co
 print(list)
 
 #Accessing List Items Using Positive Indexing
-fruits = ['Leechee', 'mango', 'apple', 'apple', 'pineapple']
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 print(fruits[0])
 #this will give correct answer, but this is a better approach :
-fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 first_fruit = fruits[0] # we are accessing the first item using its index
 print(first_fruit)
 # Why it's good: Useful when you want to use first_fruit later in the code
+second_fruit = fruits[1]
+print(second_fruit)
+last_index = len(fruits) -1
+last_fruit = fruits[last_index]
+print(last_fruit)
 
 
