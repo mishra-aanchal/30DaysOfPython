@@ -12,3 +12,6 @@ print('Diary Products :', diary_products)
 print('Number of diary products:', len(diary_products))
 print("Aanchal wishes to visit these Countries:", countries)
 print('Number of countries:',len(countries))
+
+list = ['Aanchal', 100, True, {'County':'India', 'city':'Tamil Nadu'}]
+print(list)
