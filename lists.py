@@ -54,6 +54,10 @@ print(second_lastveg)
 Friends = ['Aanchal', 'Hashini', 'Yashi', 'Anwesha', 'Bharvi', 'Ketki']
 first_friend, second_friend, third_friend, *rest = Friends
 print(first_friend)
-
+first, second, third, *rest, tenth = [1,2,3,4,5,6,7,8,9,10]
+print(first)
+print(second)
+print(rest)
+print(tenth)
 
 
