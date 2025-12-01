@@ -7,3 +7,6 @@ print(first_veg)
 Friends = ['Aanchal', 'Hashini', 'Yashi', 'Anwesha', 'Bharvi', 'Ketki']
 first_friend, second_friend, third_friend, *rest = Friends
 print(first_friend)
+print(second_friend)
+print(third_friend)
+print(rest)
