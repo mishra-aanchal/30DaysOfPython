@@ -16,3 +16,7 @@ print(second)
 print(third)
 print(rest)
 print(tenth)
+Cities = ['Mumbai', 'Noida', 'Bangalore', 'Hyderabad', 'Trivandrum', 'Goa', 'Pondicherry', 'Patna']
+MH, DL, KA, HY,KL, *rest, GA, PY, BR = Cities
+print(MH)
+print(rest)
