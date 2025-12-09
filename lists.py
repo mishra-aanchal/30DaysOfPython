@@ -63,9 +63,17 @@ Cities = ['Mumbai', 'Noida', 'Bangalore', 'Hyderabad', 'Trivandrum', 'Goa', 'Pon
 MH, DL, KA, HY,KL, *rest, GA, BR = Cities
 print(MH)
 
-#Slicing items from list
+#Slicing items from list - We can specify a range of positive indexes by specifying the start, end and step, the return value will be a new list. (default values for start = 0, end = len(lst) - 1 (last item), step = 1)
+
 fruits = ['Leechee', 'mango', 'apple', 'pineapple']
-all_fruits = fruits[0:4]
+all_fruits = fruits[0:4] #it returns all the fruits
+all_fruits = fruits[0:] #if we don't set where to stop it takes all the rest
+leechee_and_mango = fruits[0:2] 
+
+#negative indexing - We can specify a range of negative indexes by specifying the start, end and step, the return value will be a new list.
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+all_fruits = fruits[-4:]
 all_fruits = fruits[0:]
-leechee_and_mango = fruits[0:2]
+apple_pineapple = fruits[-2:]
+
 
