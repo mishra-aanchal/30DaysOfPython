@@ -63,4 +63,9 @@ Cities = ['Mumbai', 'Noida', 'Bangalore', 'Hyderabad', 'Trivandrum', 'Goa', 'Pon
 MH, DL, KA, HY,KL, *rest, GA, BR = Cities
 print(MH)
 
+#Slicing items from list
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+all_fruits = fruits[0:4]
+all_fruits = fruits[0:]
+leechee_and_mango = fruits[0:2]
 

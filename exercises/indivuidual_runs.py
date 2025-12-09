@@ -17,6 +17,16 @@ print(third)
 print(rest)
 print(tenth)
 Cities = ['Mumbai', 'Noida', 'Bangalore', 'Hyderabad', 'Trivandrum', 'Goa', 'Pondicherry', 'Patna']
-MH, DL, KA, HY,KL, *rest, GA, PY, BR = Cities
+MH, DL, KA, HY, *rest, GA, PY, BR = Cities
 print(MH)
+print(DL)
+print(KA)
+print(HY)
 print(rest)
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+all_fruits = fruits[0:4]
+leechee_and_mango = fruits[0:2]
+print(leechee_and_mango)
+print(all_fruits)
+
+
