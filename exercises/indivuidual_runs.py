@@ -5,4 +5,8 @@ apple_pineapple = fruits[-2:]
 print(all_fruits)
 print(apple_pineapple)
 
-
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits[0] = 'Avacado'
+last_index = len(fruits) -1
+fruits[last_index] = 'Guava'
+print(fruits)

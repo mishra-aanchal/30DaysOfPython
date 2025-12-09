@@ -76,4 +76,9 @@ all_fruits = fruits[-4:]
 all_fruits = fruits[0:]
 apple_pineapple = fruits[-2:]
 
+#Modifying Lists
 
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits[0] = 'Avacado'
+last_index = len(fruits) -1
+fruits[last_index] = 'Guava'
