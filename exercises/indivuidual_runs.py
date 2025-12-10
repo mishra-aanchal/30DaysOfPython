@@ -18,3 +18,9 @@ does_exist = 'orange' in fruits
 print(does_exist)
 does_exist = 'Leechee' in fruits
 print(does_exist)
+
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits.append('Berry')
+print(fruits)
+fruits.append('Guava')
+print(fruits)

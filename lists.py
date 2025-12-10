@@ -90,3 +90,12 @@ print(does_exist)
 does_exist = 'Leechee' in fruits
 print(does_exist)
 
+#Adding Items to a List - To add item to the end of an existing list we use the method append().
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits.append('Berry')
+print(fruits)
+fruits.append('Guava')
+
+
+
+
