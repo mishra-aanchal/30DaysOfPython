@@ -10,3 +10,5 @@ fruits[0] = 'Avacado'
 last_index = len(fruits) -1
 fruits[last_index] = 'Guava'
 print(fruits)
+fruits[3] = 'berry'
+print(fruits)
