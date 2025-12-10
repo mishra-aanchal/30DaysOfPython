@@ -12,3 +12,9 @@ fruits[last_index] = 'Guava'
 print(fruits)
 fruits[3] = 'berry'
 print(fruits)
+
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+does_exist = 'orange' in fruits
+print(does_exist)
+does_exist = 'Leechee' in fruits
+print(does_exist)

@@ -82,3 +82,11 @@ fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 fruits[0] = 'Avacado'
 last_index = len(fruits) -1
 fruits[last_index] = 'Guava'
+
+#Checking items in a list - Checking an item if it is a member of a list using in operator. See the example below.
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+does_exist = 'orange' in fruits
+print(does_exist)
+does_exist = 'Leechee' in fruits
+print(does_exist)
+
