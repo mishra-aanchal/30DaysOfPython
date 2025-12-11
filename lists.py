@@ -105,3 +105,11 @@ print(fruits)
 fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 fruits.insert(2, 'guava')
 print(fruits)
+
+#Removing Items from a List - The remove method removes a specified item from a list
+#syntax
+#lst = ['item1', 'item2']
+#lst.remove(item)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.remove('guava')

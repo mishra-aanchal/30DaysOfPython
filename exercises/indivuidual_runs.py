@@ -28,3 +28,7 @@ print(fruits)
 fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 fruits.insert(2, 'guava')
 print(fruits)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.remove('guava')
+print(fruits)
