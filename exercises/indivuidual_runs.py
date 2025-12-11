@@ -32,3 +32,7 @@ print(fruits)
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.remove('guava')
 print(fruits)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.pop()
+fruits.pop(2)

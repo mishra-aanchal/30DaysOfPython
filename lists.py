@@ -113,3 +113,14 @@ print(fruits)
 
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.remove('guava')
+
+#Removing Items Using Pop
+#The pop() method removes the specified index, (or the last item if index is not specified):
+# syntax
+#lst = ['item1', 'item2']
+#lst.pop()       # last item
+#lst.pop(index)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.pop()
+fruits.pop(2)
