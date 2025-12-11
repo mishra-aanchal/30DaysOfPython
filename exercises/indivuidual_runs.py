@@ -24,3 +24,7 @@ fruits.append('Berry')
 print(fruits)
 fruits.append('Guava')
 print(fruits)
+
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits.insert(2, 'guava')
+print(fruits)

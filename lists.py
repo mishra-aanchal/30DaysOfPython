@@ -95,7 +95,13 @@ fruits = ['Leechee', 'mango', 'apple', 'pineapple']
 fruits.append('Berry')
 print(fruits)
 fruits.append('Guava')
+print(fruits)
 
+#Inserting Items into a List - We can use insert() method to insert a single item at a specified index in a list. Note that other items are shifted to the right. The insert() methods takes two arguments:index and an item to insert.
+# syntax
+#lst = ['item1', 'item2']
+#lst.insert(index, item)
 
-
-
+fruits = ['Leechee', 'mango', 'apple', 'pineapple']
+fruits.insert(2, 'guava')
+print(fruits)
