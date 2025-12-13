@@ -124,3 +124,21 @@ fruits.remove('guava')
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.pop()
 fruits.pop(2)
+
+#Removing Items Using Del
+#The del keyword removes the specified index and it can also be used to delete items within index range. It can also delete the list completely
+# syntax
+# lst = ['item1', 'item2']
+# del lst[index] # only a single item
+# del lst        # to delete the list completely
+
+
+# Clearing List Items - The clear() method empties the list:
+
+# syntax
+#lst = ['item1', 'item2']
+#lst.clear()
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.clear()
+

@@ -36,3 +36,7 @@ print(fruits)
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.pop()
 fruits.pop(2)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.clear()
+print(fruits)
