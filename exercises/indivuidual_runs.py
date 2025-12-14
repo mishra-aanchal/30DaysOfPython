@@ -40,3 +40,7 @@ fruits.pop(2)
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.clear()
 print(fruits)
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits_copy = fruits.copy()
+print(fruits_copy)

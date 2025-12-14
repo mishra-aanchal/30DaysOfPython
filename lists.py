@@ -134,7 +134,6 @@ fruits.pop(2)
 
 
 # Clearing List Items - The clear() method empties the list:
-
 # syntax
 #lst = ['item1', 'item2']
 #lst.clear()
@@ -142,3 +141,11 @@ fruits.pop(2)
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.clear()
 
+#Copying a List
+'''It is possible to copy a list by reassigning it to a new variable in the following way: list2 = list1. 
+Now, list2 is a reference of list1, any changes we make in list2 will also modify the original, list1. 
+But there are lots of case in which we do not like to modify the original instead we like to have a different copy. 
+One of way of avoiding the problem above is using copy().'''
+
+fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
+fruits.copy()
