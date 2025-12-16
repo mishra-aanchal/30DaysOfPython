@@ -149,3 +149,12 @@ One of way of avoiding the problem above is using copy().'''
 
 fruits = ['Leechee', 'mango', 'guava', 'apple', 'pineapple']
 fruits.copy()
+
+#Joining lists
+#1. Plus Operator (+)
+
+pos_nums = [1,2,3,4,5]
+zero = [0]
+neg_nums = [-1, -2, -3, -4, -5]
+integers = pos_nums + zero+ neg_nums
+print(integers)
