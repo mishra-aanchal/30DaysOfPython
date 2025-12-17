@@ -164,3 +164,13 @@ list = ['banana', 'orange', 'mango', 'lemon']
 vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 list.extend(vegetables)
 print(list)
+
+
+#Counting items in a list
+#The count() method returns the number of times an item appears in a list
+
+list = ['banana', 'orange', 'mango', 'lemon']
+print(list.count('mango'))
+
+ages = [15, 20, 25, 30, 25]
+print(ages.count(25))

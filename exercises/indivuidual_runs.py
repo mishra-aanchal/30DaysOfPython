@@ -8,3 +8,9 @@ list = ['banana', 'orange', 'mango', 'lemon']
 vegetables = ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
 list.extend(vegetables)
 print(list)
+
+list = ['banana', 'orange', 'mango', 'lemon']
+print(list.count('mango'))
+
+ages = [15, 20, 25, 30, 25]
+print(ages.count(25))
