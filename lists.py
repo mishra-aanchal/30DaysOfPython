@@ -174,3 +174,12 @@ print(list.count('mango'))
 
 ages = [15, 20, 25, 30, 25]
 print(ages.count(25))
+
+#Finding Index of an Item
+#The index() method returns the index of an item in the list:
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('mango'))
+
+ages = [22, 25, 25, 23, 24]
+print(ages.index(25))

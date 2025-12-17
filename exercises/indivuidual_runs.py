@@ -14,3 +14,9 @@ print(list.count('mango'))
 
 ages = [15, 20, 25, 30, 25]
 print(ages.count(25))
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+print(fruits.index('mango'))
+
+ages = [22, 25, 25, 23, 24]
+print(ages.index(25))
