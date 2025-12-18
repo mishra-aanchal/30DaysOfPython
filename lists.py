@@ -190,3 +190,16 @@ print(ages.index(25))
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.reverse()
 print(fruits)
+
+#Sorting list items
+'''To sort lists we can use sort() method or sorted() built-in functions.
+The sort() method reorders the list items in ascending order and modifies the original list.
+If an argument of sort() method reverse is equal to true, it will arrange the list in descending order.'''
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort()
+print(fruits)
+
+ages = [55, 22, 33, 44]
+ages.sort()
+print(ages)

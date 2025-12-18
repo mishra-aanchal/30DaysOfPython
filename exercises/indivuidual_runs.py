@@ -24,3 +24,11 @@ print(ages.index(25))
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.reverse()
 print(fruits)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.sort()
+print(fruits)
+
+ages = [55, 22, 33, 44]
+ages.sort()
+print(ages)
