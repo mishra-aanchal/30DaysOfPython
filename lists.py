@@ -183,3 +183,10 @@ print(fruits.index('mango'))
 
 ages = [22, 25, 25, 23, 24]
 print(ages.index(25))
+
+#Reversing a List
+#The reverse() method reverses the order of a list.
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.reverse()
+print(fruits)
